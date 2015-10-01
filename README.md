@@ -22,7 +22,7 @@ Tested with Mac OS X 10.9 and 10.10
 6. Don't forget to save.
 7. Run the two commands in the `commands` file. (sudo is required) No restart is needed.
 
-# The Commmands
+# The Commands
 **sudo chown root /Library/LaunchAgents/com.stackexchange.apple.65938.plist**
 Sets the plist permission to root, so no user can edit them.
 
