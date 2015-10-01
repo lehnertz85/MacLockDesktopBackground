@@ -10,7 +10,7 @@
         <string>osascript</string>
         <string>-e</string>
         <string>tell application "Finder"
-set f to POSIX file "/Library/Desktop Pictures/youPictureFile.jpg"
+set f to POSIX file "/Library/Desktop Pictures/yourPictureFile.jpg"
 if desktop picture is not file f then set desktop picture to f
 end tell</string>
     </array>
