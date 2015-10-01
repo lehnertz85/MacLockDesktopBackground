@@ -23,10 +23,10 @@ Tested with Mac OS X 10.9 and 10.10
 7. Run the two commands in the `commands` file. (sudo is required) No restart is needed.
 
 # The Commmands
-*sudo chown root /Library/LaunchAgents/com.stackexchange.apple.65938.plist
+*sudo chown root /Library/LaunchAgents/com.stackexchange.apple.65938.plist*
 Sets the plist permission to root, so no user can edit them.
 
-*sudo launchctl load /Library/LaunchAgents/com.stackexchange.apple.65938.plist
+*sudo launchctl load /Library/LaunchAgents/com.stackexchange.apple.65938.plist*
 Has launchctl load the plist so it's listening.
 
 
