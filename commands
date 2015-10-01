@@ -1,0 +1,2 @@
+sudo chown root /Library/LaunchAgents/com.stackexchange.apple.65938.plist
+sudo launchctl load /Library/LaunchAgents/com.stackexchange.apple.65938.plist
