@@ -1,7 +1,15 @@
 # MacLockDesktop
-This project is used to lock the desktop image of an Apple computer. 
+This project is used to lock the desktop image of an Apple computer.
 
-## Support OSes
+I have searched the webs to find the best method to lock down the background on Macs and this is the best. I origionally discovered this when 10.9 first came out and the origional source can be found [here](http://apple.stackexchange.com/questions/65938/how-to-restrict-changing-desktop-wallpaper).
+
+When a user attemps to change the desktop picture, it will let them, but it will get reverted back to the original after a few seconds.
+
+This method also prevents users from right clicking in safari to change the background. 
+
+I'm not sure if there's any performance issues with this method, so use with caution.
+
+## Supported OSes
 Tested with Mac OS X 10.9 and 10.10
 
 #How-to
