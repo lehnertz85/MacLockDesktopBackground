@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST
+1.0//EN http://www.apple.com/DTDs/PropertyList-1.0.dtd>
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.stackexchange.apple.65938</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>osascript</string>
+        <string>-e</string>
+        <string>tell application "Finder"
+set f to POSIX file "/Library/Desktop Pictures/youPictureFile.jpg"
+if desktop picture is not file f then set desktop picture to f
+end tell</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>1</integer>
+</dict>
+</plist>
