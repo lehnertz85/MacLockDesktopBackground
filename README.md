@@ -10,7 +10,8 @@ This method also prevents users from right clicking in safari to change the back
 I'm not sure if there's any performance issues with this method, so use with caution.
 
 ## Supported OSes
-Tested with Mac OS X 10.9 and 10.10
+Tested with Mac OS X 10.9, 10.10 and 10.11.6 
+Thanks to Omar-L for testing it on 10.11.6
 
 #How-to
 1. Determine the image you want
